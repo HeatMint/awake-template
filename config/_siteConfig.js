@@ -9,12 +9,12 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  siteName: 'Blog of Heatmint',
+  tagline: 'Hi, it is me',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
-    on: true,
+    on: flase,
     id: process.env.GOOGLE_ANALYTICS_ID
   },
   mainMenu: [
@@ -66,7 +66,7 @@ export default {
 
   // Newsletter Subscribe
   newsletter: {
-    on: true,
+    on: flase,
     heading: 'Subscribe to Our Newsletter',
     btnText: 'Subscribe',
     // Can be the form action on a mail chimp form, a hubspot form,
