@@ -13,10 +13,10 @@ export default {
   tagline: 'Hi, it is me',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
-  //googleAnalytics: {
-    //on: flase,
-    //id: process.env.GOOGLE_ANALYTICS_ID
-  //},
+  googleAnalytics: {
+    on: true,
+    id: process.env.GOOGLE_ANALYTICS_ID
+  },
   mainMenu: [
     {
       name: 'About',
@@ -65,22 +65,22 @@ export default {
   },
 
   // Newsletter Subscribe
-  //newsletter: {
-    //on: flase,
-    //heading: 'Subscribe to Our Newsletter',
-    //btnText: 'Subscribe',
+  newsletter: {
+    on: true,
+    heading: 'Subscribe to Our Newsletter',
+    btnText: 'Subscribe',
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to
-    //mailchimp: {
-    //  on: true,
-    // formAction:
-    //    'https://danielkelly.us3.list-manage.com/subscribe/post?u=d3c2e762b66a2353d0bc29bf3&amp;id=2abeaa06e0'
-    //},
-    //custom: {
-      //on: false,
-      //formAction: ''
-    //}
-  //},
+    mailchimp: {
+      on: true,
+     formAction:
+        'https://danielkelly.us3.list-manage.com/subscribe/post?u=d3c2e762b66a2353d0bc29bf3&amp;id=2abeaa06e0'
+    },
+    custom: {
+      on: false,
+      formAction: ''
+    }
+  },
 
   // Categories
   categories: {
